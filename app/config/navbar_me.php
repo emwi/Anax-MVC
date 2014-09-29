@@ -13,7 +13,7 @@ return [
 
         // This is a menu item
         'home'  => [
-            'text'  => 'Home',   
+            'text'  => 'Hem',   
             'url'   => '',  
             'title' => 'Me-Site'
         ],
@@ -26,6 +26,14 @@ return [
 
         ],
  
+                // This is a menu item
+        'comments'  => [
+            'text'  => 'Kommentarer',   
+            'url'   => 'kommentarer',   
+            'title' => 'Kommentarer',
+
+        ],
+        
         // This is a menu item
         'source' => [
             'text'  =>'Source', 

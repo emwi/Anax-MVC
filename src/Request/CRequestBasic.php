@@ -265,7 +265,9 @@ class CRequestBasic
      * @return mixed
      */
     public function getGet($key, $default = null) 
-    {
+    {        if( $key == null ) {
+            return $_SERVER['QUERY_STRING'];
+        }
         return isset($this->get[$key]) ? $this->get[$key] : $default;
     }
 

@@ -8,7 +8,7 @@
 require __DIR__ . '/config_with_app.php';
 
 // Set configuration for theme
-$app->theme->configure(ANAX_APP_PATH . 'config/theme-grid.php');
+$app->theme->configure(ANAX_APP_PATH . 'config/theme_me.php');
 
 // Set url cleaner url links
 $app->url->setUrlType(\Anax\Url\CUrl::URL_CLEAN);
@@ -22,7 +22,7 @@ $app->url->setUrlType(\Anax\Url\CUrl::URL_CLEAN);
 // Set routing options
 $app->router->add('', function() use ($app) {
     $app->theme->setTitle("Hem");
-    $app->theme->addJavaScript('js/toggle.js');
+        $app->theme->addJavaScript('js/toggle.js');
 
     $content = $app->fileContent->get('me.md');
     $content = $app->textFilter->doFilter($content, 'shortcode, markdown');
@@ -59,7 +59,6 @@ $app->router->add('', function() use ($app) {
 $app->router->add('redovisning', function() use ($app) {
  
     $app->theme->setTitle("Redovisning");
-  
 
     $content = $app->fileContent->get('redovisning.md');
     $content = $app->textFilter->doFilter($content, 'shortcode, markdown');
@@ -77,7 +76,7 @@ $app->router->add('redovisning', function() use ($app) {
 $app->router->add('kommentarer', function() use ($app) {
  
     $app->theme->setTitle("Kommentarer");
-  $app->theme->addJavaScript('js/toggle.js');
+    $app->theme->addJavaScript('js/toggle.js');
     $content = $app->fileContent->get('kommentarer.md');
     $content = $app->textFilter->doFilter($content, 'shortcode, markdown');
  

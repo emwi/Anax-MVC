@@ -39,6 +39,7 @@ Började koda det som va mest behov. Men insåg snabbt att de där med att den s
 
 Allmännt..
 Detta moment va något att bita i. Känner dock att det blir lite för mycket try and error, men jag lär mig i alla fall. Tycker dock att det är svårt att hålla ordning på alla sätt/program som ska användas vid olika tillfället men det går nog till sig om man får börja jobba riktigt med det. Nu när de mesta funkar..
+<<<<<<< HEAD
 
  
 Kmom03: Bygg ett eget tema
@@ -66,3 +67,5 @@ Laddade upp momentet på github, men inte som eget projekt.
 
 Allmänt..
 Oj så jag svurit under detta moment. Jag har verkliga problem när det gäller lokalt vs servern.. I vanliga fall brukar alla(läs nästan alla) problem lösa sig när man laddar upp, men nu så fick jag fram felmeddelandet som jag saknade på den lokala versionen. Fick ingenting att funka lokalt. Så detta moment har varit mycket abusing av FileZilla som gått hetare än hetast! Kände mig verkligen stressad när tiden gick och inlämningsdagen stod bakom dörren och jag inte ens va klar med övningarna, för redan där stöp det att ingenting funkade lokalt. Men nu vet vi det, funkar de inte - LADDA UPP.. 
+=======
+>>>>>>> 0977e1856f18c9a19109d4437066cbbaaf4f94bc

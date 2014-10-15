@@ -13,7 +13,10 @@ return [
 
         // This is a menu item
         'home'  => [
+<<<<<<< HEAD
            'icon' => 'home',
+=======
+>>>>>>> 0977e1856f18c9a19109d4437066cbbaaf4f94bc
             'text'  => 'Hem',   
             'url'   => '',  
             'title' => 'Me-Site'
@@ -30,13 +33,17 @@ return [
  
                 // This is a menu item
         'comments'  => [
+<<<<<<< HEAD
         'icon' => 'comments',
+=======
+>>>>>>> 0977e1856f18c9a19109d4437066cbbaaf4f94bc
             'text'  => 'Kommentarer',   
             'url'   => 'kommentarer',   
             'title' => 'Kommentarer',
 
         ],
         
+<<<<<<< HEAD
          // This is a menu item
 
         'tema'  => [
@@ -73,6 +80,8 @@ return [
 
  
         
+=======
+>>>>>>> 0977e1856f18c9a19109d4437066cbbaaf4f94bc
         // This is a menu item
         'source' => [
         'icon' => 'code',

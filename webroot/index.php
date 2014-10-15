@@ -21,14 +21,21 @@ $app->url->setUrlType(\Anax\Url\CUrl::URL_CLEAN);
     return $controller;
 }); 
 
+<<<<<<< HEAD
 
 $baseUrl = $di->request->getBaseUrl();
 
+=======
+>>>>>>> 0977e1856f18c9a19109d4437066cbbaaf4f94bc
 // Set routing options
 $app->router->add('', function() use ($app) {
     $app->theme->setTitle("Hem");
         $app->theme->addJavaScript('js/toggle.js');
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> 0977e1856f18c9a19109d4437066cbbaaf4f94bc
     $content = $app->fileContent->get('me.md');
     $content = $app->textFilter->doFilter($content, 'shortcode, markdown');
     
@@ -47,9 +54,17 @@ $app->router->add('', function() use ($app) {
                ->addString('<i class="fa fa-linkedin-square"></i>   <a href="https://www.linkedin.com/pub/emma-wiklund/4a/841/1bb" target="_blank">Emma på LinkedIn</a>', 'footer-col-4');
  
 
+
     $byline = $app->fileContent->get('byline.md');
     $byline = $app->textFilter->doFilter($byline, 'shortcode, markdown');
  
+<<<<<<< HEAD
+=======
+    $app->theme->addStylesheet('css/comments.css');
+
+
+
+>>>>>>> 0977e1856f18c9a19109d4437066cbbaaf4f94bc
            
         $app->views->add('me/page', [
         'content' => $content,
@@ -120,6 +135,7 @@ $app->router->add('kommentarer', function() use ($app) {
     ]);
  
 });
+<<<<<<< HEAD
 
 $app->router->add('theme', function() use ($app) {
     $app->theme->setTitle("Theme");
@@ -191,6 +207,8 @@ $app->router->add('theme/font', function() use ($app) {
 });
 
 
+=======
+>>>>>>> 0977e1856f18c9a19109d4437066cbbaaf4f94bc
  
 $app->router->add('source', function() use ($app) {
  

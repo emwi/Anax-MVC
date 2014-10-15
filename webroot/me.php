@@ -19,6 +19,15 @@ $app->url->setUrlType(\Anax\Url\CUrl::URL_CLEAN);
     return $controller;
 }); 
 
+// Set url cleaner url links
+$app->url->setUrlType(\Anax\Url\CUrl::URL_CLEAN);
+
+    $di->set('CommentController', function() use ($di) {
+    $controller = new Phpmvc\Comment\CommentController();
+    $controller->setDI($di);
+    return $controller;
+}); 
+
 // Set routing options
 $app->router->add('', function() use ($app) {
     $app->theme->setTitle("Hem");
